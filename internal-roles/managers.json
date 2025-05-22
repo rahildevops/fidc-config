@@ -1,0 +1,46 @@
+{
+  "_id": "68371631-ffa8-4d4e-900e-60a36867cc15",
+  "_rev": "031c5269-d82b-4353-bb31-6bf9670a6983-27686",
+  "condition": null,
+  "description": "Role for managers",
+  "name": "managers",
+  "privileges": [
+    {
+      "accessFlags": [
+        {
+          "attribute": "userName",
+          "readOnly": true
+        },
+        {
+          "attribute": "givenName",
+          "readOnly": true
+        },
+        {
+          "attribute": "cn",
+          "readOnly": true
+        },
+        {
+          "attribute": "sn",
+          "readOnly": true
+        },
+        {
+          "attribute": "description",
+          "readOnly": false
+        },
+        {
+          "attribute": "_id",
+          "readOnly": true
+        }
+      ],
+      "actions": [],
+      "filter": "/frIndexedString3 eq \"{{_id}}\"",
+      "name": "Bravo realm - Users",
+      "path": "managed/bravo_user",
+      "permissions": [
+        "VIEW",
+        "UPDATE"
+      ]
+    }
+  ],
+  "temporalConstraints": []
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "provisioner.openicf.connectorinfoprovider",
+  "connectorsLocation": "connectors",
+  "remoteConnectorClients": [
+    {
+      "enabled": true,
+      "name": "rcs2",
+      "useSSL": true
+    },
+    {
+      "enabled": true,
+      "name": "rcs3",
+      "useSSL": true
+    },
+    {
+      "enabled": true,
+      "name": "rcstesing",
+      "useSSL": true
+    },
+    {
+      "clientId": "krishanu",
+      "enabled": true,
+      "name": "krishanu",
+      "useSSL": true
+    },
+    {
+      "clientId": "krishanu",
+      "enabled": true,
+      "name": "blacklist2",
+      "useSSL": true
+    },
+    {
+      "clientId": "RCSClient",
+      "enabled": true,
+      "name": "rcs4",
+      "useSSL": true
+    }
+  ],
+  "remoteConnectorClientsGroups": [],
+  "remoteConnectorServers": [],
+  "remoteConnectorServersGroups": []
+}
